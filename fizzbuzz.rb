@@ -1,4 +1,4 @@
-def fizz_buzz(int)
+def fizzbuzz(int)
   if int % 15==0
     puts "FizzBuzz"
   elsif int % 5==0
@@ -9,9 +9,9 @@ def fizz_buzz(int)
     puts "nil"
   end
 end
-fizz_buzz(30)
-fizz_buzz(5)
-fizz_buzz(15)
-fizz_buzz(3)
-fizz_buzz(4)
+fizzbuzz(30)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(3)
+fizzbuzz(4)
 
